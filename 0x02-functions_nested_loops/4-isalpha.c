@@ -9,7 +9,7 @@ int _isalpha(int c)
 {
 	int to_return;
 
-	if (c >= 'a' || c <= 'Z')
+	if (c >= 'a' && c <= 'Z')
 		to_return = 1;
 	else
 		to_return = 0;
