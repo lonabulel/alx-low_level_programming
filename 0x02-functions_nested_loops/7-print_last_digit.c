@@ -10,5 +10,10 @@ int print_last_digit(int num)
 	int num1;
 
 	num1 = num % 10;
+	if (num1 < 0)
+	{
+		num1 = num1 * -1
+	}
+	_printf(
 	return (num1);
 }
