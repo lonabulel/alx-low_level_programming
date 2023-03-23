@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * print_numbers - prints the number 0 through to 9
+ * print_most_numbers - prints the number 0 through to 9
  * using a for loop
  *
  * Return: Always 0
