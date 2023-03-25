@@ -6,28 +6,28 @@
  */
 int main(void)
 {
-	int i,j;
+	int i, j;
 
 	i = '0';
-	
+
 	while (i < '9')
 	{
-		putchar(i);
-		
-		j = i++;
-		
+		j = i + 1;
+
 		while (j <= '9')
 		{
+			putchar(i);
 			putchar(j);
-			if (j != '9')
+			if (i != '8')
 			{
 				putchar(',');
 				putchar(' ');
 			}
+			j++;
 		}
-		
+
 		i++;
 	}
-	return(0);
+	return (0);
 }
 
