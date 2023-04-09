@@ -1,7 +1,8 @@
 #include <stdio.h>
 /**
- * This programs prints its name
- *
+ *main - Entry point for a program that prints its name
+ *@argc: The number of arguments that are entered
+ *@argv: The argument vector
  * Return: 0
  */
 int main(int __attribute__((unused)) argc, char *argv[])
