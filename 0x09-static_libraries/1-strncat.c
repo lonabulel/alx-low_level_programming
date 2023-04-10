@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * strncat - concatenate two strings with at most n bytes from second string
+ * _strncat - concatenate two strings with at most n bytes from second string
  * @dest: First string to be concatenated
  * @src: second string to be concatenated
  * @n: amount of bytes from src
